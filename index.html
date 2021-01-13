@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <p>put your first number</p>
+        <input type="text" id="num1">
+        <br>
+        <p>put your second number</p>
+        <input type="text" id="num2">
+        <br>
+        <br>
+
+        <button style="width: 100px; height: 50px;"  type="button" onclick="equationAdd()">+</button>
+        <button style="width: 100px; height: 50px;"  type="button" onclick="equationSub()">-</button>
+        <button style="width: 100px; height: 50px;"  type="button" onclick="equationMul()">*</button>
+        <button style="width: 100px; height: 50px;"  type="button" onclick="equationDiv()">/</button>
+        
+        <h1>your answer</h1>
+        <p id="answer"></p>
+
+        <button type="button" autofocus=autofocus onkeypress="button()"></button>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
